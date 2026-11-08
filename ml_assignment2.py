@@ -9,15 +9,8 @@ Original file is located at
 
 import os
 
-# Create a dedicated folder for your assignment
 os.makedirs("bits_ml_assignment", exist_ok=True)
-
-# Move your files into it (or make sure you save/upload them directly here)
-# For now, let's navigate into this folder for all git operations
-# Change to your project directory
 os.chdir('/content/bits_ml_assignment')
-
-# Now verify what's inside (should only be your app.py, requirements.txt, etc.)
 print(os.getcwd())
 print(os.listdir('.'))
 
